@@ -3,8 +3,8 @@ name: Scrape CDC transmission map data
 on:
   push:
   workflow_dispatch:
-  schedule:
-    - cron: "4,24,44 * * * *"
+  # schedule:
+    # - cron: "4,24,44 * * * *"
 
 jobs:
   scheduled:
